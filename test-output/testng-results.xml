@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9689" started-at="2022-03-21T11:15:18Z" finished-at="2022-03-21T11:15:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9689" started-at="2022-03-21T11:15:18Z" finished-at="2022-03-21T11:15:28Z">
+      <class name="sample.sample_1">
+        <test-method status="PASS" signature="CreateUser(org.testng.ITestContext)[pri:0, instance:sample.sample_1@c818063]" name="CreateUser" duration-ms="4071" started-at="2022-03-21T16:45:18Z" finished-at="2022-03-21T16:45:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@68837a77]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateUser -->
+        <test-method status="PASS" signature="UpdateUser(org.testng.ITestContext)[pri:0, instance:sample.sample_1@c818063]" name="UpdateUser" duration-ms="1392" started-at="2022-03-21T16:45:22Z" depends-on-methods="sample.sample_1.CreateUser" finished-at="2022-03-21T16:45:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@68837a77]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateUser -->
+        <test-method status="PASS" signature="login(org.testng.ITestContext)[pri:0, instance:sample.sample_1@c818063]" name="login" duration-ms="1396" started-at="2022-03-21T16:45:24Z" depends-on-methods="sample.sample_1.UpdateUser" finished-at="2022-03-21T16:45:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@68837a77]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logout(org.testng.ITestContext)[pri:0, instance:sample.sample_1@c818063]" name="logout" duration-ms="1341" started-at="2022-03-21T16:45:25Z" depends-on-methods="sample.sample_1.login" finished-at="2022-03-21T16:45:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@68837a77]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="Delete(org.testng.ITestContext)[pri:0, instance:sample.sample_1@c818063]" name="Delete" duration-ms="1464" started-at="2022-03-21T16:45:26Z" depends-on-methods="sample.sample_1.logout" finished-at="2022-03-21T16:45:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@68837a77]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete -->
+      </class> <!-- sample.sample_1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
